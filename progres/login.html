@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+<style>
+body{
+background-color: whitesmoke;
+}
+form {
+  width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+  float: right;
+  margin: 100px;
+  padding: 100px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.container {
+  padding:10px;
+  margin:flex;
+  width: 30px;
+  
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 120px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 30px;
+  margin: 8px 0;
+  
+}
+img{
+  width: 400px;
+  height:400px;
+  margin-top: 130px;
+  
+  
+}
+</style>
+</head>
+<body>
+  <img src="img/daily-routine.png" alt="icons">
+  <form action="#"method="post">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+          
+      <button type="submit">Login</button>
+      
+    </div>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+  
+</body>
+</html>
